@@ -1,0 +1,23 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "bio",
+	"compatibility_date": "2026-04-10",
+	"compatibility_flags": [
+		"nodejs_als"
+	],
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	},
+	"workers_dev": true,
+	"preview_urls": true,
+	"d1_databases": [
+		{
+			"binding": "bio",
+			"database_name": "bio",
+			"database_id": "d13bf166-a367-46b6-9db4-d289370a1272",
+			"remote": true
+		}
+	]
+}
