@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@polar-sh/sdk':
+        specifier: ^0.47.0
+        version: 0.47.0
       jose:
         specifier: ^6.2.2
         version: 6.2.2
@@ -953,6 +956,9 @@ packages:
 
   '@oxc-project/types@0.124.0':
     resolution: {integrity: sha512-VBFWMTBvHxS11Z5Lvlr3IWgrwhMTXV+Md+EQF0Xf60+wAdsGFTBx7X7K/hP4pi8N7dcm1RvcHwDxZ16Qx8keUg==}
+
+  '@polar-sh/sdk@0.47.0':
+    resolution: {integrity: sha512-tZEt8eLWsQVhmyfUQzXhnN84e5Cnu/JsYFnCci1ranWkIGveQc+wTiyzDCG9Tl1xiz1Y/ztPsAJ1fevj6ExdAA==}
 
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
@@ -2410,6 +2416,11 @@ snapshots:
     optional: true
 
   '@oxc-project/types@0.124.0': {}
+
+  '@polar-sh/sdk@0.47.0':
+    dependencies:
+      standardwebhooks: 1.0.0
+      zod: 4.3.6
 
   '@polka/url@1.0.0-next.29': {}
 
